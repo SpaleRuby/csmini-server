@@ -1,12 +1,15 @@
 {
-  "name": "csmini-server",
-  "version": "1.0.0",
-  "description": "Signaling server for CS Mini",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "socket.io": "^4.7.5"
+    "name": "cs-mini-p2p-signaling",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "engines": {
+      "node": ">=20"
+    },
+    "dependencies": {
+      "socket.io": "^4.8.1"
+    }
   }
-}
